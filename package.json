@@ -4,7 +4,8 @@
   "description": "auth service for ega",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "migrate": "npx prisma migrate dev --preview-feature --skip-generate"
   },
   "repository": {
     "type": "git",
